@@ -1,11 +1,23 @@
-header{
+#posts{
     display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    margin-left: 20%;
 }
 button{
     border: none;
     background-color: white;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+}
+#headleft{
+    display: flex;
+}
 #profilePic{
     margin-top: 15px;
     margin-left: 15px;
@@ -16,15 +28,23 @@ button{
     margin-left: 20px;
 }
 #options{
-    margin-top: 10px ;
-    margin-left: 200px;
+    margin-top: 12px ;    
     width: 40px;
     height: 40px;
 }
+
+
 #picPost{
     width: 100%;
 }
 
 #like, #comment, #dm{
     width: 50px;
+}
+
+@media only screen and (max-width: 500px){
+    #posts{
+        margin-left: 0px;
+        width: 100%;
+    }
 }

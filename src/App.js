@@ -1,4 +1,5 @@
 import Nav from './components/Nav'
+import Main from "./components/Main-feed"
 // import {BrowserRouter, Switch, Route} from 'react-router-dom';
 // import Home from './components/Home';
 // import Send from './components/Send';
@@ -13,6 +14,7 @@ function App() {
   
 <div >
   <Nav />
+  <Main/>
 </div> 
     
   );

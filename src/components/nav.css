@@ -38,7 +38,9 @@ ul{
     font-size: 25px;
   }
 
-  
+  .camera-icon,.arrow-icon{
+    visibility: hidden;
+}
 
   
 
@@ -53,6 +55,13 @@ ul{
       display: none;
     }
     .camera-icon{
+        margin-right: 150px;
+        visibility: visible;
+        font-size: 45px;
+    }
+    .arrow-icon{
+        margin-left: 150px;
+        visibility: visible;
         font-size: 45px;
     }
     .logo-section{

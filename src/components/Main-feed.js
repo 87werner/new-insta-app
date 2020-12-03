@@ -8,6 +8,8 @@ import dmpic from "../pics/dmpic.png"
 import picPost1 from "../pics/post1.jpg"
 import picPost2 from "../pics/post2.jpg"
 import picPost3 from "../pics/post3.jpg"
+import {FiHeart,FiNavigation} from "react-icons/fi";
+import {IoChatbubbleOut} from "react-icons/io5";
 
 class Main extends React.Component{
     
@@ -51,9 +53,9 @@ const Post = (props) => {
             <img id="picPost" src={props.imgPost}/>
             
             <div id="buttons">
-                <button id="like"><img id="like" src={likepic}/></button>
+                <button id="like"><FiHeart id="like"/></button>
                 <button id="comment"><img id="comment" src={compic}/></button>
-                <button id="dm"><img id="dm" src={dmpic}/></button>
+                <button id="dm"><FiNavigation id="dm"/></button>
             </div>
             <footer>
                 <p>likes: {props.likes}</p>

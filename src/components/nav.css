@@ -1,0 +1,29 @@
+
+.navbar-container{
+    padding: 8px;
+    border-bottom: 1p solid rgb(220,220,220);
+}
+
+.navbar{
+    width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.heart-placeholder-icon:hover{
+    color: red !important;
+    
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+

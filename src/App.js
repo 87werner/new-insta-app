@@ -12,9 +12,9 @@ import './App.css';
 function App() {
   return (
   
-<div >
-  <Nav/>
-  <Main/>
+<div id="webpage">
+  <p id="nav"><Nav/></p>
+  <p id="main"><Main /></p>
 </div> 
     
   );

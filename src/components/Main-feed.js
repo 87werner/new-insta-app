@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import "./Main-feed.css"
 import profilePic from "../pics/profilepic.png"
-import picPost from "../pics/post2.jpg"
 import likepic from "../pics/likeicon.png"
 import compic from "../pics/commentpic.png"
 import dmpic from "../pics/dmpic.png"
+
+import picPost1 from "../pics/post1.jpg"
+import picPost2 from "../pics/post2.jpg"
+import picPost3 from "../pics/post3.jpg"
 
 class Main extends React.Component{
     
@@ -13,17 +16,22 @@ class Main extends React.Component{
             <div>
                 <Post 
                     image={profilePic} 
-                    name={"joshua"} 
-                    imgPost={picPost} 
-                    likes={10}
-                    description={"this was a really nice sunset"}/> 
-                    
+                    name={"Joshua"} 
+                    imgPost={picPost1} 
+                    likes={147}
+                    description={"this was a really nice sunset"}/>                     
                 <Post 
                     image={profilePic} 
-                    name={"joshua"} 
-                    imgPost={picPost} 
-                    likes={10}
-                    description={"this was a really nice sunset"}/>     
+                    name={"Tom"} 
+                    imgPost={picPost2} 
+                    likes={125}
+                    description={"france was so nice "}/>   
+                <Post 
+                    image={profilePic} 
+                    name={"Rose"} 
+                    imgPost={picPost3} 
+                    likes={97}
+                    description={"mount everest is so big"}/>    
             </div>
         )
     }

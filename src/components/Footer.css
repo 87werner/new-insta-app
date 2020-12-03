@@ -22,12 +22,11 @@
     color: red !important;
     
 }
+.footer-placeholder-ul{
 
-ul{
-
-    display: flex;
-    padding: 0 30px;
+    display:none;
   }
+
   
   ul li{
     color: black;
@@ -40,26 +39,32 @@ ul{
 
   
 
-  
-
 @media only screen and (max-width: 500px) {
     .navbar{
+        border-top: 1px solid rgb(110, 110, 110);
         margin: auto;
         display: flex;
         justify-content: center;
-        flex-direction: column
+       flex-direction: column
     }
-    ul{
-      display: none;
-    }
-    .camera-icon{
-        font-size: 45px;
-    }
+    .footer-placeholder-ul{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 30px;
+      }
+
+      ul li{
+        color: black;
+        align-items: center;
+        list-style: none;
+        margin: 0 30px;
+        font-size: 60px;
+      }
+   
     .logo-section{
         font-family: 'Sansita Swashed', cursive;
-        font-size: 65px;
+        font-size: 70px;
         font-weight: bolder;
     }
     
 }
-

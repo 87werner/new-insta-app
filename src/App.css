@@ -12,20 +12,7 @@ nav {
   font-family: 'Sansita Swashed', cursive;
 } */
 
-ul{
 
-  display: flex;
-  padding: 0 30px;
-}
-
-ul li{
-  color: black;
-  align-items: center;
-  list-style: none;
-  align-self: center;
-  margin: 0 10px;
-  font-size: 25px;
-}
 
 
 

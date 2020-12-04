@@ -1,13 +1,11 @@
 import React from 'react'
-// import {Link} from 'react-router-dom'
-// import instagram from './InstagramLogo.png'
 import {FiHeart,FiNavigation} from "react-icons/fi";
 import {MdHome} from "react-icons/md";
 import {AiOutlineCompass} from "react-icons/ai";
 import Searchbar from './Searchbar';
 import {FiCamera } from "react-icons/fi";
 import './nav.css'
-// import Heart from './Heart'
+
 
 
 const Nav = () => {
@@ -17,7 +15,7 @@ const Nav = () => {
                 <div className="navbar-container">
                     <div className="navbar">
                    
-                        <div className="logo-section"><FiCamera className="camera-icon"/>Instagram</div>
+                        <div className="logo-section"><FiCamera className="camera-icon"/>Instagram <FiNavigation className="arrow-icon"/></div>
                             <div className="searchbar-section">
                                 <Searchbar/>
                             </div>
@@ -45,4 +43,3 @@ const Nav = () => {
 export default Nav
 
 
-//<Heart className="heart-placeholder-icon"/>

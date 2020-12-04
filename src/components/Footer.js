@@ -22,7 +22,7 @@ const Footer = () => {
                                 <ul className="footer-placeholder-ul">
                                     <li><MdHome className="home-icon"/></li>
                                     <li><IoSearchOutline className="search-icon"/></li>
-                                    <li><FiCamera className="camera-icon"/></li>
+                                    <li><FiCamera className="cam-icon"/></li>
                                     <li><FiHeart className="heart-placeholder-icon"/></li>
                                     <li><IoPersonOutline className="person-icon"/></li>
                                 </ul>

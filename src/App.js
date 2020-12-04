@@ -12,8 +12,8 @@ function App() {
 
 <div id="webpage">
   <p id="nav"><Nav/></p>
-  <p id="main"><Main /></p>
-  <Footer />
+  <p id="main"><Main/></p>
+  <p id="footer"><Footer/></p>
 
 </div> 
     
